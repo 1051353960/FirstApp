@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:button="@android:color/transparent"
             android:drawableTop="@drawable/rb_common_frame_drawable_selector"
-            android:text="常用框架"
+            android:text="多选框"
             android:textColor="#000000"/>
     </RadioGroup>
 
