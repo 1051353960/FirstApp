@@ -23,7 +23,7 @@
         android:orientation="horizontal"
         android:padding="3dp">
     <RadioButton
-            android:id="@+id/rb_common_fram"
+            android:id="@+id/rb_common_frame"
             android:text="常用框架"
             android:drawableTop="@drawable/rb_common_frame_drawable_selector"
             style="@style/botttom_tag_style"
@@ -31,17 +31,17 @@
         <RadioButton
             android:id="@+id/rb_thirdparty"
             android:text="第三方"
-            android:drawableTop="@drawable/rb_common_frame_drawable_selector"
+            android:drawableTop="@drawable/rb_thirdparty_drawable_selector"
             style="@style/botttom_tag_style"/>
         <RadioButton
             android:id="@+id/rb_custom"
             android:text="自定义控件"
-            android:drawableTop="@drawable/rb_common_frame_drawable_selector"
+            android:drawableTop="@drawable/rb_custom_drawable_selector"
             style="@style/botttom_tag_style"/>
         <RadioButton
             android:id="@+id/rb_other"
             android:text="其它"
-            android:drawableTop="@drawable/rb_common_frame_drawable_selector"
+            android:drawableTop="@drawable/rb_other_drawable_selector"
             style="@style/botttom_tag_style"/>
     </RadioGroup>
 
