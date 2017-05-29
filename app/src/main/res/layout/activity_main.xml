@@ -15,46 +15,34 @@
 
     </FrameLayout>
     <RadioGroup
-
-        android:id="@+id/rg_button_tag"
+        android:id="@+id/rg_bottom_tag"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
         android:background="#11000000"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/rb_common_frame"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dp">
+    <RadioButton
+            android:id="@+id/rb_common_fram"
             android:text="常用框架"
             android:drawableTop="@drawable/rb_common_frame_drawable_selector"
+            style="@style/botttom_tag_style"
          />
         <RadioButton
-            android:layout_weight="1"
-            android:id="@+id/rb_common_frame"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:button="@android:color/transparent"
+            android:id="@+id/rb_thirdparty"
+            android:text="第三方"
             android:drawableTop="@drawable/rb_common_frame_drawable_selector"
-            android:text="常用框架"
-            android:textColor="#000000"/>
+            style="@style/botttom_tag_style"/>
         <RadioButton
-            android:layout_weight="1"
-            android:id="@+id/rb_common_frame"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:button="@android:color/transparent"
+            android:id="@+id/rb_custom"
+            android:text="自定义控件"
             android:drawableTop="@drawable/rb_common_frame_drawable_selector"
-            android:text="常用框架"
-            android:textColor="#000000"/>
+            style="@style/botttom_tag_style"/>
         <RadioButton
-            android:layout_weight="1"
-            android:id="@+id/rb_common_frame"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:button="@android:color/transparent"
+            android:id="@+id/rb_other"
+            android:text="其它"
             android:drawableTop="@drawable/rb_common_frame_drawable_selector"
-            android:text="常用框架"
-            android:textColor="#000000"/>
+            style="@style/botttom_tag_style"/>
     </RadioGroup>
 
 
